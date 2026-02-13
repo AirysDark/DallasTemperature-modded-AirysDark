@@ -1,29 +1,36 @@
 {
   "name": "DallasTemperature-modded-AirysDark",
-  "keywords": "onewire, 1-wire, bus, sensor, temperature, DS18B20, DS18S20, DS1822, DS1820, MAX31850",
   "description": "Arduino Library for Dallas Temperature ICs (DS18B20, DS18S20, DS1822, DS1820, MAX31850)",
-  "repository":
-  {
+  "keywords": [
+    "onewire",
+    "1-wire",
+    "bus",
+    "sensor",
+    "temperature",
+    "DS18B20",
+    "DS18S20",
+    "DS1822",
+    "DS1820",
+    "MAX31850"
+  ],
+  "repository": {
     "type": "git",
     "url": "https://github.com/AirysDark/DallasTemperature-modded-AirysDark.git"
   },
-  "authors": 
-  [
+  "authors": [
     {
       "name": "AirysDark",
-      "email": "mmegamanx2sonic@gamil.com",
-      "url": "xxxx",
+      "email": "megamanx2sonic@gmail.com",
+      "url": "https://github.com/AirysDark",
       "maintainer": true
- 
     }
   ],
-  "dependencies":
-  {
-    "AirysDark/OneWire-custom-AirysDark": "^4.3.8-custom"
+  "dependencies": {
+    "AirysDark/OneWire-custom-AirysDark": "^4.3.8"
   },
   "version": "4.0.5",
   "license": "MIT",
-  "frameworks": "arduino",
-  "platforms": "*",
-  "headers": "DallasTemperature.h"
+  "frameworks": ["arduino"],
+  "platforms": ["*"],
+  "headers": ["DallasTemperature.h"]
 }
