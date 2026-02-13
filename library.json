@@ -24,7 +24,7 @@
       "url": "https://github.com/AirysDark",
       "maintainer": true
     }
-  },
+  ],
   "version": "4.0.5",
   "license": "MIT",
   "frameworks": ["arduino"],
